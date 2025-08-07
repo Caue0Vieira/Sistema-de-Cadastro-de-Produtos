@@ -6,6 +6,7 @@ use App\Http\Requests\CreateCategoryRequest;
 use App\Http\Requests\UpdateCategoryRequest;
 use App\Http\Controllers\AppBaseController;
 use App\Repositories\CategoryRepository;
+use Exception;
 use Illuminate\Http\Request;
 use Flash;
 
@@ -47,7 +48,7 @@ class CategoryController extends AppBaseController
 
         $category = $this->categoryRepository->create($input);
 
-        Flash::success('Category saved successfully.');
+        Flash::success('Categoria cadastrada com sucesso.');
 
         return redirect(route('categories.index'));
     }
@@ -60,7 +61,7 @@ class CategoryController extends AppBaseController
         $category = $this->categoryRepository->find($id);
 
         if (empty($category)) {
-            Flash::error('Category not found');
+            Flash::error('Categoria não encontrada.');
 
             return redirect(route('categories.index'));
         }
@@ -76,7 +77,7 @@ class CategoryController extends AppBaseController
         $category = $this->categoryRepository->find($id);
 
         if (empty($category)) {
-            Flash::error('Category not found');
+            Flash::error('Categoria não encontrada.');
 
             return redirect(route('categories.index'));
         }
@@ -92,14 +93,14 @@ class CategoryController extends AppBaseController
         $category = $this->categoryRepository->find($id);
 
         if (empty($category)) {
-            Flash::error('Category not found');
+            Flash::error('Categoria não encontrada.');
 
             return redirect(route('categories.index'));
         }
 
         $category = $this->categoryRepository->update($request->all(), $id);
 
-        Flash::success('Category updated successfully.');
+        Flash::success('Categoria atualizada com sucesso.');
 
         return redirect(route('categories.index'));
     }
@@ -107,21 +108,21 @@ class CategoryController extends AppBaseController
     /**
      * Remove the specified Category from storage.
      *
-     * @throws \Exception
+     * @throws Exception
      */
     public function destroy($id)
     {
         $category = $this->categoryRepository->find($id);
 
         if (empty($category)) {
-            Flash::error('Category not found');
+            Flash::error('Categoria não encontrada.');
 
             return redirect(route('categories.index'));
         }
 
         $this->categoryRepository->delete($id);
 
-        Flash::success('Category deleted successfully.');
+        Flash::success('Categoria removida com sucesso.');
 
         return redirect(route('categories.index'));
     }

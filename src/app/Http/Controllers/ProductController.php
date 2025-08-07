@@ -76,7 +76,7 @@ class ProductController extends AppBaseController
         $product = $this->productRepository->find($id);
 
         if (empty($product)) {
-            Flash::error('Product not found');
+            Flash::error('Produto não encontrado.');
 
             return redirect(route('products.index'));
         }
@@ -92,14 +92,14 @@ class ProductController extends AppBaseController
         $product = $this->productRepository->find($id);
 
         if (empty($product)) {
-            Flash::error('Product not found');
+            Flash::error('Produto não encontrado.');
 
             return redirect(route('products.index'));
         }
 
         $product = $this->productRepository->update($request->all(), $id);
 
-        Flash::success('Product updated successfully.');
+        Flash::success('Produto atualizado com sucesso.');
 
         return redirect(route('products.index'));
     }
@@ -114,14 +114,14 @@ class ProductController extends AppBaseController
         $product = $this->productRepository->find($id);
 
         if (empty($product)) {
-            Flash::error('Product not found');
+            Flash::error('Produto não encontrado.');
 
             return redirect(route('products.index'));
         }
 
         $this->productRepository->delete($id);
 
-        Flash::success('Product deleted successfully.');
+        Flash::success('Produto removido com sucesso.');
 
         return redirect(route('products.index'));
     }

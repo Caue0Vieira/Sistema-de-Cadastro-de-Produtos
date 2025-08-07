@@ -1,4 +1,4 @@
-FROM webdevops/php-nginx:8.2
+FROM webdevops/php-nginx:8.4
 
 RUN apt-get update && \
     apt-get install -y curl gnupg && \

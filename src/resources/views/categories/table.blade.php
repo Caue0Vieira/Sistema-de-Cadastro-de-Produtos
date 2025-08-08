@@ -4,7 +4,7 @@
             <thead>
             <tr>
                 <th>Nome</th>
-                <th>DescriÇão</th>
+                <th>Descrição</th>
                 <th colspan="3">Ação</th>
             </tr>
             </thead>

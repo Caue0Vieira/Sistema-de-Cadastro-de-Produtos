@@ -13,12 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Redireciona a rota inicial para a tela de login
 Route::get('/', function () {
     return redirect()->route('login');
 });
 
-// Rotas de autenticação
 Auth::routes();
 
 

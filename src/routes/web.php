@@ -24,12 +24,10 @@ Auth::routes();
 
 
 
-// Rotas protegidas que requerem autenticação
+
 Route::middleware(['auth'])->group(function () {
-    // Rota do dashboard
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-    
-    // Rotas de recursos
-    Route::resource('categories', App\Http\Controllers\CategoryController::class);
-    Route::resource('products', App\Http\Controllers\ProductController::class);
+
+    Route::resource('cetgorias', App\Http\Controllers\CategoryController::class);
+    Route::resource('produtos', App\Http\Controllers\ProductController::class);
 });

@@ -35,7 +35,8 @@ class ProductController extends AppBaseController
      */
     public function create()
     {
-        return view('products.create');
+        $categories = \App\Models\Category::pluck('nome', 'id');
+        return view('products.create')->with('categories', $categories);
     }
 
     /**
@@ -81,7 +82,8 @@ class ProductController extends AppBaseController
             return redirect(route('products.index'));
         }
 
-        return view('products.edit')->with('product', $product);
+        $categories = \App\Models\Category::pluck('nome', 'id');
+        return view('products.edit')->with('product', $product)->with('categories', $categories);
     }
 
     /**

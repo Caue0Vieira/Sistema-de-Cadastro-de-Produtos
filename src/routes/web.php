@@ -13,20 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Redireciona a rota inicial para a tela de login
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+// Rotas de autenticação
 Auth::routes();
 
 
 
 
-Route::resource('categories', App\Http\Controllers\CategoryController::class);
-Route::resource('products', App\Http\Controllers\ProductController::class);
+// Rotas protegidas que requerem autenticação
+Route::middleware(['auth'])->group(function () {
+    // Rota do dashboard
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    
+    // Rotas de recursos
+    Route::resource('categories', App\Http\Controllers\CategoryController::class);
+    Route::resource('products', App\Http\Controllers\ProductController::class);
+});

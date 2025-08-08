@@ -10,7 +10,7 @@
                 <div class="col-sm-6">
                     <a class="btn btn-primary float-right"
                        href="{{ route('categories.create') }}">
-                        Adiconar Nova Categoria
+                        Adiconar Categoria
                     </a>
                 </div>
             </div>

@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CreateProductRequest;
 use App\Http\Requests\UpdateProductRequest;
-use App\Http\Controllers\AppBaseController;
+use App\Models\Category;
 use App\Repositories\ProductRepository;
+use Exception;
 use Illuminate\Http\Request;
 use Flash;
 
@@ -35,7 +36,7 @@ class ProductController extends AppBaseController
      */
     public function create()
     {
-        $categories = \App\Models\Category::pluck('nome', 'id');
+        $categories = Category::pluck('nome', 'id');
         return view('products.create')->with('categories', $categories);
     }
 
@@ -82,7 +83,7 @@ class ProductController extends AppBaseController
             return redirect(route('products.index'));
         }
 
-        $categories = \App\Models\Category::pluck('nome', 'id');
+        $categories = Category::pluck('nome', 'id');
         return view('products.edit')->with('product', $product)->with('categories', $categories);
     }
 
@@ -109,7 +110,7 @@ class ProductController extends AppBaseController
     /**
      * Remove the specified Product from storage.
      *
-     * @throws \Exception
+     * @throws Exception
      */
     public function destroy($id)
     {

@@ -12,7 +12,7 @@ Category Details
                 <div class="col-sm-6">
                     <a class="btn btn-default float-right"
                        href="{{ route('categories.index') }}">
-                                                    Back
+                                                    Voltar
                                             </a>
                 </div>
             </div>

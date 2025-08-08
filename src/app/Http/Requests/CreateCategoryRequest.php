@@ -26,4 +26,19 @@ class CreateCategoryRequest extends FormRequest
     {
         return Category::$rules;
     }
+
+    /**
+     * Get custom messages for validator errors.
+     *
+     * @return array
+     */
+    public function messages()
+    {
+        return [
+            'nome.required' => 'O campo nome é obrigatório.',
+            'nome.string' => 'O campo nome deve ser um texto.',
+            'nome.max' => 'O campo nome não pode ter mais de 255 caracteres.',
+            'descricao.string' => 'O campo descrição deve ser um texto.',
+        ];
+    }
 }

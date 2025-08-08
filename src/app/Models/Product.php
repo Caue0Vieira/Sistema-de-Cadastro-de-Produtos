@@ -25,9 +25,9 @@ class Product extends Model
     public static array $rules = [
         'nome' => 'required|string|max:255',
         'descricao' => 'nullable|string',
-        'preco' => 'required|numeric',
-        'quantidade' => 'required',
-        'category_id' => 'required',
+        'preco' => 'required|numeric|min:0',
+        'quantidade' => 'required|integer|min:1',
+        'category_id' => 'required|exists:categories,id',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'
     ];

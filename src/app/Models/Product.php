@@ -26,7 +26,7 @@ class Product extends Model
         'nome' => 'required|string|max:255',
         'descricao' => 'nullable|string',
         'preco' => 'required|numeric|min:0',
-        'quantidade' => 'required|integer|min:1',
+        'quantidade' => 'required|integer|min:0',
         'category_id' => 'required|exists:categories,id',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'

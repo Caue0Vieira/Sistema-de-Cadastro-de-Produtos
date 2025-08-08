@@ -4,10 +4,10 @@
             <thead>
             <tr>
                 <th>Nome</th>
-                <th>Descricao</th>
-                <th>Preco</th>
+                <th>Descriçâo</th>
+                <th>Preço</th>
                 <th>Quantidade</th>
-                <th>Category Id</th>
+                <th>Categoria</th>
                 <th colspan="3">Action</th>
             </tr>
             </thead>
@@ -18,7 +18,7 @@
                     <td>{{ $product->descricao }}</td>
                     <td>{{ $product->preco }}</td>
                     <td>{{ $product->quantidade }}</td>
-                    <td>{{ $product->category_id }}</td>
+                    <td>{{ $product->category->nome ?? 'N/A' }}</td>
                     <td  style="width: 120px">
                         {!! Form::open(['route' => ['products.destroy', $product->id], 'method' => 'delete']) !!}
                         <div class='btn-group'>
@@ -30,7 +30,7 @@
                                class='btn btn-default btn-xs'>
                                 <i class="far fa-edit"></i>
                             </a>
-                            {!! Form::button('<i class="far fa-trash-alt"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!}
+                            {!! Form::button('<i class="far fa-trash-alt"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Tem certeza?')"]) !!}
                         </div>
                         {!! Form::close() !!}
                     </td>

@@ -6,7 +6,7 @@
             <div class="row mb-2">
                 <div class="col-sm-12">
                     <h1>
-                        Editar Categorias
+                        Editar Categoria
                     </h1>
                 </div>
             </div>
@@ -28,7 +28,7 @@
             </div>
 
             <div class="card-footer">
-                {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
+                {!! Form::submit('Atualizar', ['class' => 'btn btn-primary']) !!}
                 <a href="{{ route('categories.index') }}" class="btn btn-default"> Cancelar </a>
             </div>
 

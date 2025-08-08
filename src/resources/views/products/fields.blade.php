@@ -19,7 +19,7 @@
 <!-- Quantidade Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('quantidade', 'Quantidade:') !!}
-    {!! Form::number('quantidade', null, ['class' => 'form-control', 'required', 'min' => '1']) !!}
+    {!! Form::number('quantidade', null, ['class' => 'form-control', 'required', 'min' => '0']) !!}
 </div>
 
 <!-- Category Id Field -->

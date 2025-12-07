@@ -1,27 +1,36 @@
-version: '3.8'
-
 services:
   app:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    container_name: laravel_app
-    user: "1000:1000"
+    container_name: SGP
     ports:
-      - "8099:80" # HTTP
-      - "9443:443" #HTTPS
-
+      - "8089:80"
+      - "488:443"
     volumes:
       - ../src:/app
-    
     environment:
-      WEB_DOCUMENT_ROOT: /app/public
-      PHP_MEMORY_LIMIT: 512M
-      PHP_MAX_EXECUTION_TIME: 300
+      - PHP_DISPLAY_ERRORS=1
+      - PHP_MEMORY_LIMIT=512M
+      - PHP_MAX_EXECUTION_TIME=300
+      - WEB_DOCUMENT_ROOT=/app/public
+      - COMPOSER_VERSION=2
+      - COMPOSER_PROCESS_TIMEOUT=3600
+      - COMPOSER_MEMORY_LIMIT=-1
+      - APP_ENV=local
+      - APP_DEBUG=true
+      - DB_CONNECTION=pgsql
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_DATABASE=laravel
+      - DB_USERNAME=laravel_user
+      - DB_PASSWORD=laravel_pass
+    depends_on:
+      - postgres
 
-  db:
+  postgres:
     image: postgres:14
-    container_name: postgres_db
+    container_name: postgres_laravel
     environment:
       POSTGRES_DB: laravel
       POSTGRES_USER: laravel_user
@@ -29,8 +38,12 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5433:5432"
 
 volumes:
   pgdata:
 
+networks:
+  default:
+    external:
+      name: internal

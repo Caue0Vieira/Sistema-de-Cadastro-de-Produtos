@@ -8,8 +8,8 @@ RUN apt-get update && \
 
 USER root
 
-RUN mkdir -p /app/storage/logs /app/bootstrap/cache && \
-    chown -R application:application /app/storage /app/bootstrap/cache
+RUN mkdir -p /app/storage/logs /app/bootstrap/cache /app/public/build && \
+    chown -R application:application /app/storage /app/bootstrap/cache /app/public/build
 
 WORKDIR /app
 
@@ -25,3 +25,6 @@ RUN composer --version && \
     composer install \
     --no-dev --prefer-dist --optimize-autoloader \
     -vvv
+
+# Instala as dependências do npm
+RUN npm install

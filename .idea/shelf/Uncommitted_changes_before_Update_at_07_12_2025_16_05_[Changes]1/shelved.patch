@@ -1,0 +1,72 @@
+Index: src/resources/views/layouts/app.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><x-laravel-ui-adminlte::adminlte-layout>\n\n    <body class=\"hold-transition sidebar-mini layout-fixed\">\n        <div class=\"wrapper\">\n            <!-- Main Header -->\n            <nav class=\"main-header navbar navbar-expand navbar-white navbar-light\">\n                <!-- Left navbar links -->\n                <ul class=\"navbar-nav\">\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link\" data-widget=\"pushmenu\" href=\"#\" role=\"button\"><i\n                                class=\"fas fa-bars\"></i></a>\n                    </li>\n                </ul>\n\n                <ul class=\"navbar-nav ml-auto\">\n                    <li class=\"nav-item dropdown user-menu\">\n                        <a href=\"#\" class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\">\n                            <img src=\"https://assets.infyom.com/logo/blue_logo_150x150.png\"\n                                class=\"user-image img-circle elevation-2\" alt=\"User Image\">\n                            <span class=\"d-none d-md-inline\">{{ Auth::user()->name }}</span>\n                        </a>\n                        <ul class=\"dropdown-menu dropdown-menu-lg dropdown-menu-right\">\n                            <!-- User image -->\n                            <li class=\"user-header bg-primary\">\n                                <img src=\"https://assets.infyom.com/logo/blue_logo_150x150.png\"\n                                    class=\"img-circle elevation-2\" alt=\"User Image\">\n                                <p>\n                                    {{ Auth::user()->name }}\n                                    <small>Member since {{ Auth::user()->created_at->format('M. Y') }}</small>\n                                </p>\n                            </li>\n                            <!-- Menu Footer-->\n                            <li class=\"user-footer\">\n                                <a href=\"#\" class=\"btn btn-default btn-flat\">Profile</a>\n                                <a href=\"#\" class=\"btn btn-default btn-flat float-right\"\n                                    onclick=\"event.preventDefault(); document.getElementById('logout-form').submit();\">\n                                    Sign out\n                                </a>\n                                <form id=\"logout-form\" action=\"{{ route('logout') }}\" method=\"POST\" class=\"d-none\">\n                                    @csrf\n                                </form>\n                            </li>\n                        </ul>\n                    </li>\n                </ul>\n            </nav>\n\n            <!-- Left side column. contains the logo and sidebar -->\n            @include('layouts.sidebar')\n\n            <!-- Content Wrapper. Contains page content -->\n            <div class=\"content-wrapper\">\n                @yield('content')\n            </div>\n\n            <!-- Main Footer -->\n            <footer class=\"main-footer\">\n                <div class=\"float-right d-none d-sm-block\">\n                    <b>Version</b> 3.1.0\n                </div>\n                <strong>Copyright &copy; 2014-2023 <a href=\"https://adminlte.io\">AdminLTE.io</a>.</strong> All rights\n                reserved.\n            </footer>\n        </div>\n    </body>\n</x-laravel-ui-adminlte::adminlte-layout>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/resources/views/layouts/app.blade.php b/src/resources/views/layouts/app.blade.php
+--- a/src/resources/views/layouts/app.blade.php	(revision 75f7013d954af347b4cfd1cedafb58384a72064c)
++++ b/src/resources/views/layouts/app.blade.php	(date 1765133788308)
+@@ -52,15 +52,6 @@
+             <div class="content-wrapper">
+                 @yield('content')
+             </div>
+-
+-            <!-- Main Footer -->
+-            <footer class="main-footer">
+-                <div class="float-right d-none d-sm-block">
+-                    <b>Version</b> 3.1.0
+-                </div>
+-                <strong>Copyright &copy; 2014-2023 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
+-                reserved.
+-            </footer>
+         </div>
+     </body>
+ </x-laravel-ui-adminlte::adminlte-layout>
+Index: src/resources/views/layouts/menu.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!-- need to remove -->\n<li class=\"nav-item\">\n    <a href=\"{{ route('home') }}\" class=\"nav-link {{ Request::is('home') ? 'active' : '' }}\">\n        <i class=\"nav-icon fas fa-home\"></i>\n        <p>Home</p>\n    </a>\n</li>\n\n\n\n\n\n\n\n<li class=\"nav-item\">\n    <a href=\"{{ route('categories.index') }}\" class=\"nav-link {{ Request::is('categories*') ? 'active' : '' }}\">\n        <i class=\"nav-icon fas fa-home\"></i>\n        <p>Categorias</p>\n    </a>\n</li>\n\n<li class=\"nav-item\">\n    <a href=\"{{ route('products.index') }}\" class=\"nav-link {{ Request::is('products*') ? 'active' : '' }}\">\n        <i class=\"nav-icon fas fa-home\"></i>\n        <p>Produtos</p>\n    </a>\n</li>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/resources/views/layouts/menu.blade.php b/src/resources/views/layouts/menu.blade.php
+--- a/src/resources/views/layouts/menu.blade.php	(revision 75f7013d954af347b4cfd1cedafb58384a72064c)
++++ b/src/resources/views/layouts/menu.blade.php	(date 1765133883262)
+@@ -14,14 +14,14 @@
+ 
+ <li class="nav-item">
+     <a href="{{ route('categories.index') }}" class="nav-link {{ Request::is('categories*') ? 'active' : '' }}">
+-        <i class="nav-icon fas fa-home"></i>
++        <i class="nav-icon fas fa-tags"></i>
+         <p>Categorias</p>
+     </a>
+ </li>
+ 
+ <li class="nav-item">
+     <a href="{{ route('products.index') }}" class="nav-link {{ Request::is('products*') ? 'active' : '' }}">
+-        <i class="nav-icon fas fa-home"></i>
++        <i class="nav-icon fas fa-box"></i>
+         <p>Produtos</p>
+     </a>
+ </li>
+Index: src/resources/views/layouts/sidebar.blade.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><aside class=\"main-sidebar sidebar-dark-primary elevation-4\">\n    <a href=\"{{ route('home') }}\" class=\"brand-link\">\n        <img src=\"https://assets.infyom.com/logo/blue_logo_150x150.png\"\n             alt=\"AdminLTE Logo\"\n             class=\"brand-image img-circle elevation-3\">\n        <span class=\"brand-text font-weight-light\">{{ config('app.name') }}</span>\n    </a>\n\n    <div class=\"sidebar\">\n        <nav class=\"mt-2\">\n            <ul class=\"nav nav-pills nav-sidebar flex-column\" data-widget=\"treeview\" role=\"menu\" data-accordion=\"false\">\n                @include('layouts.menu')\n            </ul>\n        </nav>\n    </div>\n\n</aside>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/resources/views/layouts/sidebar.blade.php b/src/resources/views/layouts/sidebar.blade.php
+--- a/src/resources/views/layouts/sidebar.blade.php	(revision 75f7013d954af347b4cfd1cedafb58384a72064c)
++++ b/src/resources/views/layouts/sidebar.blade.php	(date 1765133883262)
+@@ -3,7 +3,7 @@
+         <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
+              alt="AdminLTE Logo"
+              class="brand-image img-circle elevation-3">
+-        <span class="brand-text font-weight-light">{{ config('app.name') }}</span>
++        <span class="brand-text font-weight-light">Sistema de Produtos</span>
+     </a>
+ 
+     <div class="sidebar">

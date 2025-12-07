@@ -1,0 +1,245 @@
+Index: .idea/Api RESTful.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"WEB_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/tests/Feature\" isTestSource=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/tests/Unit\" isTestSource=\"true\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/app\" isTestSource=\"false\" packagePrefix=\"App\\\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/database/factories\" isTestSource=\"false\" packagePrefix=\"Database\\Factories\\\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/database/seeders\" isTestSource=\"false\" packagePrefix=\"Database\\Seeders\\\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/tests\" isTestSource=\"true\" packagePrefix=\"Tests\\\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/barryvdh/laravel-ide-helper\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/barryvdh/reflection-docblock\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/brick/math\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/carbonphp/carbon-doctrine-types\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/composer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/dflydev/dot-access-data\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/doctrine/dbal\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/doctrine/deprecations\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/doctrine/event-manager\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/doctrine/inflector\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/doctrine/lexer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/dragonmantank/cron-expression\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/egulias/email-validator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/fakerphp/faker\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/filp/whoops\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/fruitcake/php-cors\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/graham-campbell/result-type\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/guzzlehttp/guzzle\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/guzzlehttp/promises\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/guzzlehttp/psr7\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/guzzlehttp/uri-template\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/hamcrest/hamcrest-php\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/infyomlabs/adminlte-templates\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/infyomlabs/laravel-generator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/infyomlabs/laravel-generator-helpers\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/infyomlabs/laravel-ui-adminlte\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laracasts/flash\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/framework\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/pint\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/prompts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/sail\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/sanctum\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/serializable-closure\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/tinker\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravel/ui\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/laravelcollective/html\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/league/commonmark\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/league/config\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/league/flysystem\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/league/flysystem-local\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/league/mime-type-detection\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/mockery/mockery\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/monolog/monolog\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/myclabs/deep-copy\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/nesbot/carbon\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/nette/schema\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/nette/utils\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/nikic/php-parser\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/nunomaduro/collision\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/nunomaduro/termwind\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phar-io/manifest\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phar-io/version\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpdocumentor/reflection-common\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpdocumentor/type-resolver\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpoption/phpoption\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpstan/phpdoc-parser\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpunit/php-code-coverage\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpunit/php-file-iterator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpunit/php-invoker\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpunit/php-text-template\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpunit/php-timer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/phpunit/phpunit\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/clock\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/container\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/event-dispatcher\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/http-client\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/http-factory\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/http-message\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/log\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/simple-cache\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psy/psysh\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/ralouphie/getallheaders\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/ramsey/collection\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/ramsey/uuid\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/cli-parser\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/code-unit\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/comparator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/complexity\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/diff\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/environment\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/exporter\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/global-state\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/lines-of-code\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/object-enumerator\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/object-reflector\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/recursion-context\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/type\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/sebastian/version\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/spatie/backtrace\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/spatie/error-solutions\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/spatie/flare-client-php\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/spatie/ignition\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/spatie/laravel-ignition\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/console\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/css-selector\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/deprecation-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/error-handler\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/event-dispatcher\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/event-dispatcher-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/finder\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/http-foundation\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/http-kernel\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/mailer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/mime\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-ctype\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-intl-grapheme\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-intl-idn\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-intl-normalizer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-mbstring\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-php80\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-php83\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/polyfill-uuid\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/process\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/routing\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/service-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/string\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/translation\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/translation-contracts\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/uid\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/var-dumper\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/var-exporter\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/symfony/yaml\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/theseer/tokenizer\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/tijsverkoyen/css-to-inline-styles\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/vlucas/phpdotenv\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/voku/portable-ascii\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/webmozart/assert\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/barryvdh/laravel-debugbar\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/php-debugbar/php-debugbar\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/src/vendor/psr/cache\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/.idea/Api RESTful.iml b/.idea/Api RESTful.iml
+--- a/.idea/Api RESTful.iml	(revision 75f7013d954af347b4cfd1cedafb58384a72064c)
++++ b/.idea/Api RESTful.iml	(date 1765134112549)
+@@ -8,8 +8,6 @@
+       <sourceFolder url="file://$MODULE_DIR$/src/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+       <sourceFolder url="file://$MODULE_DIR$/src/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+       <sourceFolder url="file://$MODULE_DIR$/src/tests" isTestSource="true" packagePrefix="Tests\" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/barryvdh/laravel-ide-helper" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/barryvdh/reflection-docblock" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/brick/math" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/carbonphp/carbon-doctrine-types" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/composer" />
+@@ -21,24 +19,19 @@
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/doctrine/lexer" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/dragonmantank/cron-expression" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/egulias/email-validator" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/fakerphp/faker" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/filp/whoops" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/fruitcake/php-cors" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/graham-campbell/result-type" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/guzzlehttp/guzzle" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/guzzlehttp/promises" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/guzzlehttp/psr7" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/guzzlehttp/uri-template" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/hamcrest/hamcrest-php" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/infyomlabs/adminlte-templates" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/infyomlabs/laravel-generator" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/infyomlabs/laravel-generator-helpers" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/infyomlabs/laravel-ui-adminlte" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laracasts/flash" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/framework" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/pint" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/prompts" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/sail" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/sanctum" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/serializable-closure" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/tinker" />
+@@ -49,27 +42,13 @@
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/league/flysystem" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/league/flysystem-local" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/league/mime-type-detection" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/mockery/mockery" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/monolog/monolog" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/myclabs/deep-copy" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/nesbot/carbon" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/nette/schema" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/nette/utils" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/nikic/php-parser" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/nunomaduro/collision" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/nunomaduro/termwind" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phar-io/manifest" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phar-io/version" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpdocumentor/reflection-common" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpdocumentor/type-resolver" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpoption/phpoption" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpstan/phpdoc-parser" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpunit/php-code-coverage" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpunit/php-file-iterator" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpunit/php-invoker" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpunit/php-text-template" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpunit/php-timer" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/phpunit/phpunit" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/clock" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/container" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/event-dispatcher" />
+@@ -82,26 +61,6 @@
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/ralouphie/getallheaders" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/ramsey/collection" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/ramsey/uuid" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/cli-parser" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/code-unit" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/code-unit-reverse-lookup" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/comparator" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/complexity" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/diff" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/environment" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/exporter" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/global-state" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/lines-of-code" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/object-enumerator" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/object-reflector" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/recursion-context" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/type" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/version" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/backtrace" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/error-solutions" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/flare-client-php" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/ignition" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-ignition" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/console" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/css-selector" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/deprecation-contracts" />
+@@ -130,14 +89,10 @@
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/uid" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/var-dumper" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/var-exporter" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/yaml" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/theseer/tokenizer" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/tijsverkoyen/css-to-inline-styles" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/vlucas/phpdotenv" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/voku/portable-ascii" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/webmozart/assert" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/barryvdh/laravel-debugbar" />
+-      <excludeFolder url="file://$MODULE_DIR$/src/vendor/php-debugbar/php-debugbar" />
+       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/cache" />
+     </content>
+     <orderEntry type="inheritedJdk" />
+Index: .idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MessDetectorOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PHPCSFixerOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PHPCodeSnifferOptionsConfiguration\">\r\n    <option name=\"highlightLevel\" value=\"WARNING\" />\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PhpIncludePathManager\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpstan/phpdoc-parser\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/barryvdh/laravel-ide-helper\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/barryvdh/reflection-docblock\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/composer\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laracasts/flash\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/clock\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/infyomlabs/laravel-generator\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/container\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravelcollective/html\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/var-exporter\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/http-client\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/http-factory\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/http-message\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/log\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/simple-cache\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psy/psysh\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/filp/whoops\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/voku/portable-ascii\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/brick/math\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/nette/schema\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/nette/utils\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpdocumentor/reflection-common\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/nikic/php-parser\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpdocumentor/type-resolver\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/league/commonmark\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/league/config\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/league/flysystem\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/doctrine/inflector\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/league/flysystem-local\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/doctrine/lexer\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/league/mime-type-detection\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/fakerphp/faker\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/nesbot/carbon\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/hamcrest/hamcrest-php\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/ramsey/collection\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/carbonphp/carbon-doctrine-types\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/ramsey/uuid\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/fruitcake/php-cors\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/spatie/backtrace\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpoption/phpoption\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/spatie/error-solutions\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/ralouphie/getallheaders\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/spatie/flare-client-php\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/cli-parser\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/spatie/ignition\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/code-unit\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/spatie/laravel-ignition\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/vlucas/phpdotenv\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/comparator\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/dflydev/dot-access-data\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/complexity\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/egulias/email-validator\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/diff\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/framework\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/environment\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/pint\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/exporter\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/prompts\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/global-state\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/sail\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/lines-of-code\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/sanctum\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/object-enumerator\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/serializable-closure\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/object-reflector\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/tinker\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/recursion-context\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/mockery/mockery\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/type\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/monolog/monolog\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/sebastian/version\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/myclabs/deep-copy\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/webmozart/assert\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phar-io/manifest\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/guzzlehttp/guzzle\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phar-io/version\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/guzzlehttp/promises\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpunit/php-code-coverage\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/guzzlehttp/psr7\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpunit/php-file-iterator\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/guzzlehttp/uri-template\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpunit/php-invoker\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/nunomaduro/collision\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpunit/php-text-template\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/nunomaduro/termwind\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpunit/php-timer\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/tijsverkoyen/css-to-inline-styles\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/phpunit/phpunit\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/dragonmantank/cron-expression\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/console\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/graham-campbell/result-type\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/css-selector\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/deprecation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/error-handler\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/event-dispatcher-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/finder\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/http-foundation\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/http-kernel\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/mailer\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/mime\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-ctype\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-grapheme\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-idn\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-normalizer\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/doctrine/deprecations\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-mbstring\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-php80\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-php83\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/polyfill-uuid\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/process\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/routing\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/service-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/string\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/translation\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/translation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/uid\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/var-dumper\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/symfony/yaml\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/theseer/tokenizer\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/barryvdh/laravel-debugbar\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/php-debugbar/php-debugbar\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/psr/cache\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/doctrine/event-manager\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/doctrine/dbal\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/infyomlabs/adminlte-templates\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/infyomlabs/laravel-generator-helpers\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/infyomlabs/laravel-ui-adminlte\" />\r\n      <path value=\"$PROJECT_DIR$/src/vendor/laravel/ui\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"PhpProjectSharedConfiguration\" php_language_level=\"8.1\">\r\n    <option name=\"suggestChangeDefaultLanguageLevel\" value=\"false\" />\r\n  </component>\r\n  <component name=\"PhpStanOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PhpUnit\">\r\n    <phpunit_settings>\r\n      <PhpUnitSettings configuration_file_path=\"$PROJECT_DIR$/src/phpunit.xml\" custom_loader_path=\"$PROJECT_DIR$/src/vendor/autoload.php\" use_configuration_file=\"true\" />\r\n    </phpunit_settings>\r\n  </component>\r\n  <component name=\"PsalmOptionsConfiguration\">\r\n    <option name=\"transferred\" value=\"true\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/php.xml b/.idea/php.xml
+--- a/.idea/php.xml	(revision 75f7013d954af347b4cfd1cedafb58384a72064c)
++++ b/.idea/php.xml	(date 1765134112556)
+@@ -12,13 +12,9 @@
+   </component>
+   <component name="PhpIncludePathManager">
+     <include_path>
+-      <path value="$PROJECT_DIR$/src/vendor/phpstan/phpdoc-parser" />
+-      <path value="$PROJECT_DIR$/src/vendor/barryvdh/laravel-ide-helper" />
+-      <path value="$PROJECT_DIR$/src/vendor/barryvdh/reflection-docblock" />
+       <path value="$PROJECT_DIR$/src/vendor/composer" />
+       <path value="$PROJECT_DIR$/src/vendor/laracasts/flash" />
+       <path value="$PROJECT_DIR$/src/vendor/psr/clock" />
+-      <path value="$PROJECT_DIR$/src/vendor/infyomlabs/laravel-generator" />
+       <path value="$PROJECT_DIR$/src/vendor/psr/container" />
+       <path value="$PROJECT_DIR$/src/vendor/laravelcollective/html" />
+       <path value="$PROJECT_DIR$/src/vendor/psr/event-dispatcher" />
+@@ -28,80 +24,36 @@
+       <path value="$PROJECT_DIR$/src/vendor/psr/http-message" />
+       <path value="$PROJECT_DIR$/src/vendor/psr/log" />
+       <path value="$PROJECT_DIR$/src/vendor/psr/simple-cache" />
+-      <path value="$PROJECT_DIR$/src/vendor/psy/psysh" />
+-      <path value="$PROJECT_DIR$/src/vendor/filp/whoops" />
+       <path value="$PROJECT_DIR$/src/vendor/voku/portable-ascii" />
+       <path value="$PROJECT_DIR$/src/vendor/brick/math" />
+       <path value="$PROJECT_DIR$/src/vendor/nette/schema" />
+       <path value="$PROJECT_DIR$/src/vendor/nette/utils" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpdocumentor/reflection-common" />
+-      <path value="$PROJECT_DIR$/src/vendor/nikic/php-parser" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpdocumentor/type-resolver" />
+-      <path value="$PROJECT_DIR$/src/vendor/league/commonmark" />
+       <path value="$PROJECT_DIR$/src/vendor/league/config" />
+       <path value="$PROJECT_DIR$/src/vendor/league/flysystem" />
+       <path value="$PROJECT_DIR$/src/vendor/doctrine/inflector" />
+       <path value="$PROJECT_DIR$/src/vendor/league/flysystem-local" />
+       <path value="$PROJECT_DIR$/src/vendor/doctrine/lexer" />
+       <path value="$PROJECT_DIR$/src/vendor/league/mime-type-detection" />
+-      <path value="$PROJECT_DIR$/src/vendor/fakerphp/faker" />
+-      <path value="$PROJECT_DIR$/src/vendor/nesbot/carbon" />
+-      <path value="$PROJECT_DIR$/src/vendor/hamcrest/hamcrest-php" />
+       <path value="$PROJECT_DIR$/src/vendor/ramsey/collection" />
+       <path value="$PROJECT_DIR$/src/vendor/carbonphp/carbon-doctrine-types" />
+       <path value="$PROJECT_DIR$/src/vendor/ramsey/uuid" />
+       <path value="$PROJECT_DIR$/src/vendor/fruitcake/php-cors" />
+-      <path value="$PROJECT_DIR$/src/vendor/spatie/backtrace" />
+       <path value="$PROJECT_DIR$/src/vendor/phpoption/phpoption" />
+-      <path value="$PROJECT_DIR$/src/vendor/spatie/error-solutions" />
+       <path value="$PROJECT_DIR$/src/vendor/ralouphie/getallheaders" />
+-      <path value="$PROJECT_DIR$/src/vendor/spatie/flare-client-php" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/cli-parser" />
+-      <path value="$PROJECT_DIR$/src/vendor/spatie/ignition" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/code-unit" />
+-      <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-ignition" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/code-unit-reverse-lookup" />
+       <path value="$PROJECT_DIR$/src/vendor/vlucas/phpdotenv" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/comparator" />
+       <path value="$PROJECT_DIR$/src/vendor/dflydev/dot-access-data" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/complexity" />
+       <path value="$PROJECT_DIR$/src/vendor/egulias/email-validator" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/diff" />
+-      <path value="$PROJECT_DIR$/src/vendor/laravel/framework" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/environment" />
+-      <path value="$PROJECT_DIR$/src/vendor/laravel/pint" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/exporter" />
+       <path value="$PROJECT_DIR$/src/vendor/laravel/prompts" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/global-state" />
+-      <path value="$PROJECT_DIR$/src/vendor/laravel/sail" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/lines-of-code" />
+       <path value="$PROJECT_DIR$/src/vendor/laravel/sanctum" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/object-enumerator" />
+       <path value="$PROJECT_DIR$/src/vendor/laravel/serializable-closure" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/object-reflector" />
+-      <path value="$PROJECT_DIR$/src/vendor/laravel/tinker" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/recursion-context" />
+-      <path value="$PROJECT_DIR$/src/vendor/mockery/mockery" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/type" />
+       <path value="$PROJECT_DIR$/src/vendor/monolog/monolog" />
+-      <path value="$PROJECT_DIR$/src/vendor/sebastian/version" />
+-      <path value="$PROJECT_DIR$/src/vendor/myclabs/deep-copy" />
+       <path value="$PROJECT_DIR$/src/vendor/webmozart/assert" />
+-      <path value="$PROJECT_DIR$/src/vendor/phar-io/manifest" />
+       <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/guzzle" />
+-      <path value="$PROJECT_DIR$/src/vendor/phar-io/version" />
+       <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/promises" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpunit/php-code-coverage" />
+       <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/psr7" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpunit/php-file-iterator" />
+       <path value="$PROJECT_DIR$/src/vendor/guzzlehttp/uri-template" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpunit/php-invoker" />
+-      <path value="$PROJECT_DIR$/src/vendor/nunomaduro/collision" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpunit/php-text-template" />
+       <path value="$PROJECT_DIR$/src/vendor/nunomaduro/termwind" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpunit/php-timer" />
+       <path value="$PROJECT_DIR$/src/vendor/tijsverkoyen/css-to-inline-styles" />
+-      <path value="$PROJECT_DIR$/src/vendor/phpunit/phpunit" />
+       <path value="$PROJECT_DIR$/src/vendor/dragonmantank/cron-expression" />
+       <path value="$PROJECT_DIR$/src/vendor/symfony/console" />
+       <path value="$PROJECT_DIR$/src/vendor/graham-campbell/result-type" />
+@@ -132,20 +84,23 @@
+       <path value="$PROJECT_DIR$/src/vendor/symfony/translation-contracts" />
+       <path value="$PROJECT_DIR$/src/vendor/symfony/uid" />
+       <path value="$PROJECT_DIR$/src/vendor/symfony/var-dumper" />
+-      <path value="$PROJECT_DIR$/src/vendor/symfony/yaml" />
+-      <path value="$PROJECT_DIR$/src/vendor/theseer/tokenizer" />
+-      <path value="$PROJECT_DIR$/src/vendor/barryvdh/laravel-debugbar" />
+-      <path value="$PROJECT_DIR$/src/vendor/php-debugbar/php-debugbar" />
+       <path value="$PROJECT_DIR$/src/vendor/psr/cache" />
+       <path value="$PROJECT_DIR$/src/vendor/doctrine/event-manager" />
+-      <path value="$PROJECT_DIR$/src/vendor/doctrine/dbal" />
+       <path value="$PROJECT_DIR$/src/vendor/infyomlabs/adminlte-templates" />
+       <path value="$PROJECT_DIR$/src/vendor/infyomlabs/laravel-generator-helpers" />
+       <path value="$PROJECT_DIR$/src/vendor/infyomlabs/laravel-ui-adminlte" />
+       <path value="$PROJECT_DIR$/src/vendor/laravel/ui" />
++      <path value="$PROJECT_DIR$/src/vendor/infyomlabs/laravel-generator" />
++      <path value="$PROJECT_DIR$/src/vendor/laravel/tinker" />
++      <path value="$PROJECT_DIR$/src/vendor/psy/psysh" />
++      <path value="$PROJECT_DIR$/src/vendor/nikic/php-parser" />
++      <path value="$PROJECT_DIR$/src/vendor/nesbot/carbon" />
++      <path value="$PROJECT_DIR$/src/vendor/doctrine/dbal" />
++      <path value="$PROJECT_DIR$/src/vendor/league/commonmark" />
++      <path value="$PROJECT_DIR$/src/vendor/laravel/framework" />
+     </include_path>
+   </component>
+-  <component name="PhpProjectSharedConfiguration" php_language_level="8.1">
++  <component name="PhpProjectSharedConfiguration" php_language_level="8.4">
+     <option name="suggestChangeDefaultLanguageLevel" value="false" />
+   </component>
+   <component name="PhpStanOptionsConfiguration">
